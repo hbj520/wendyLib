@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - SVProgressHUD (2.2.5)
+  - wendyLib (0.1.0):
+    - AFNetworking
+    - SVProgressHUD
+
+DEPENDENCIES:
+  - wendyLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  wendyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  wendyLib: 9e375d646cf93757fbdc90af4d6fa89de8282461
+
+PODFILE CHECKSUM: 772bdf98740f32865fc237901125fe7e6c2be45f
+
+COCOAPODS: 1.10.1

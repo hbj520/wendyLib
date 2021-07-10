@@ -7,7 +7,7 @@
 //
 
 #import "WENDYViewController.h"
-
+#import <wendyLib/IMAdition.h>
 @interface WENDYViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self showText:@"djkfdkfjdkj"];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

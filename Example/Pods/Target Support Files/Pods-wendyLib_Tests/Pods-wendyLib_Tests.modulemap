@@ -1,0 +1,6 @@
+framework module Pods_wendyLib_Tests {
+  umbrella header "Pods-wendyLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
