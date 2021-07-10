@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'wendyLib/Classes/**/*'
   
    s.resource_bundles = {
-     'wendyLib' => ['wendyLib/Assets/*.png']
+     'wendyLib' => ['wendyLib/Assets/images/*.png']
    }
 
     s.public_header_files = 'Pod/Classes/**/*.h'
